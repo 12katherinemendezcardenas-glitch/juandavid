@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presentación Bavaria</title>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f8f8f8;
+            flex-direction: column;
+            color: #333;
+        }
+
+        .slide-container {
+            width: 100%;
+            max-width: 1200px;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .slide {
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            min-height: 450px;
+        }
+        
+        @media (min-width: 768px) {
+            .slide {
+                flex-direction: row;
+            }
+        }
+
+        .text-section {
+            padding: 30px;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .image-section {
+            background-color: #D11A22;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            box-sizing: border-box;
+            gap: 20px;
+        }
+        
+        .image-section.horizontal {
+            flex-direction: row;
+        }
+        
+        @media (max-width: 767px) {
+            .image-section.horizontal {
+                flex-direction: column;
+            }
+        }
+
+        .image-box {
+            width: 80%;
+            max-width: 250px;
+            height: auto;
+            border-radius: 10px;
+            background-color: white;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            padding: 15px;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .image-box img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        
+        h1, h2 {
+            font-weight: bold;
+            color: #D11A22;
+        }
+        
+        h1 {
+            text-align: center;
+            font-size: 2.5em;
+        }
+        
+        h2 {
+            font-size: 1.8em;
+            margin-bottom: 20px;
+        }
+        
+        p, ul {
+            font-size: 1em;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .placeholder-image {
+            width: 100%;
+            height: auto;
+            aspect-ratio: 16/9;
+            background-color: #eee;
+            border: 2px dashed #ccc;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #aaa;
+            font-style: italic;
+        }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+    <div class="slide-container">
+        
+        <div class="slide">
+            <div class="text-section">
+                <h2>1. Merchandising de Bavaria</h2>
+                <p>El merchandising de Bavaria se centra en fortalecer la conexión emocional con sus consumidores. La empresa utiliza una variedad de artículos promocionales y productos de marca para generar afinidad y lealtad. Estos esfuerzos incluyen:</p>
+                <ul>
+                    <li><strong>Productos oficiales:</strong> Artículos como vasos, destapadores, ropa y gorras con los logos de marcas icónicas como Águila, Club Colombia y Poker.</li>
+                    <li><strong>Experiencias de marca:</strong> Programas de lealtad como "Tienda Aliada" y "Club Bavaria", donde los clientes pueden acceder a promociones especiales, eventos y artículos exclusivos.</li>
+                    <li><strong>Marketing responsable:</strong> Todas las campañas y artículos de merchandising están diseñados para promover el consumo responsable y no están dirigidos a menores de edad.</li>
+                </ul>
+            </div>
+            <div class="image-section">
+                <div class="image-box">
+                    <img src="https://www.bavaria.co/sites/g/files/seuoyk1666/files/2024-01/don-c.jpg" alt="Merchandising de Poker">
+                </div>
+                <div class="image-box">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9ux5PWOeQNvAtSNlpg8yCMszXw8uUu8O5myXGk4RE9xiiCn5t2gQLFF-9jwTF04YWY-o&usqp=CAU" alt="Merchandising de Pony Malta">
+                </div>
+            </div>
+        </div>
+
+        <div class="slide">
+            <div class="text-section">
+                <h2>2. Diseño de Espacios</h2>
+                <p>El diseño de espacios en Bavaria refleja su historia y su enfoque en la innovación. La compañía ha invertido en la creación de entornos que promuevan la colaboración, la creatividad y la sostenibilidad.</p>
+                <ul>
+                    <li><strong>Oficinas y sedes:</strong> Las sedes corporativas de Bavaria, como la de Bogotá, están diseñadas para ser espacios de trabajo modernos que fusionan su herencia arquitectónica con la funcionalidad contemporánea.</li>
+                    <li><strong>Plantas de producción:</strong> Con seis cervecerías y dos plantas de maltería en diferentes ciudades de Colombia, el diseño industrial se enfoca en la eficiencia, la tecnología de punta y la sostenibilidad.</li>
+                    <li><strong>Reaprovechamiento de recursos:</strong> Las instalaciones cuentan con sistemas avanzados para el tratamiento y reutilización de aguas, reduciendo el impacto ambiental y promoviendo una economía circular.</li>
+                </ul>
+            </div>
+            <div class="image-section horizontal">
+                <div class="image-box">
+                    <img src="https://www.uniagraria.edu.co/wp-content/uploads/2019/11/DSC_0097-1024x683.jpg" alt="Planta de producción de Tocancipá">
+                </div>
+                <div class="image-box">
+                    <img src="https://img.lalr.co/cms/2013/07/27021623/bavaria0729-1000.jpg?size=xl&ratio=r40_21" alt="Oficinas de Bavaria">
+                </div>
+                <div class="image-box">
+                    <img src="https://www.historiacocina.com/es/wp-content/uploads/2014/11/New-Picture-10.png" alt="Antigua Cervecería León en Barranquilla">
+                </div>
+            </div>
+        </div>
+
+        <div class="slide">
+            <div class="text-section">
+                <h2>3. Historia de la Empresa</h2>
+                <p>Bavaria es una de las empresas más antiguas y emblemáticas de Colombia, con una historia que se remonta al siglo XIX.</p>
+                <ul>
+                    <li><strong>Fundación (1889):</strong> Fue fundada por el inmigrante alemán Leo Siegfried Kopp, quien estableció la cervecería en Bogotá. Inicialmente, la empresa se llamó "Kopp's Deutsche Bierbrauerei Bavaria".</li>
+                    <li><strong>Crecimiento y expansión:</strong> A lo largo del siglo XX, Bavaria adquirió otras cervecerías en el país, consolidando su posición como líder del mercado. Marcas como Águila y Poker se unieron a su portafolio.</li>
+                    <li><strong>Nuevos dueños:</strong> En 2005, Bavaria fue adquirida por la multinacional SABMiller y, posteriormente, en 2016, pasó a formar parte del gigante cervecero AB InBev, convirtiéndose en la operación más grande de la compañía en América del Sur.</li>
+                </ul>
+            </div>
+            <div class="image-section">
+                <div class="image-box">
+                    <img src="https://static.wikia.nocookie.net/logopedia/images/c/c3/Bavaria1889.png/revision/latest?cb=20190328044118&path-prefix=es" alt="Logo de Bavaria">
+                </div>
+                <div class="image-box">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS4rojVV2XzNSDBcKoE1V5qgbkNDgsdS91kQ&s" alt="Club Colombia Lata">
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+</body>
+</html>
